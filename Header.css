@@ -1,0 +1,160 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+}
+h2{   font-size: 26px; color: white; font-weight: bold;}
+h3{   font-size: 20px; color: white; font-weight: bold;}
+h4{	  font-size: 12px; color: white; }
+h5{	  font-size: 18px; color: black; font-weight: bold;}
+h6{   font-size: 12px; color: black;}
+hr{
+	font-weight: 1px;
+	color: #D2D2D2;
+	width: 85%;
+	margin-top: 20px;
+}
+
+.BlueText{
+  color:#15F4F4;
+}
+.OrangeText{
+	color: orange;
+}
+.container{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 8px;
+	font-size: 12px;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	width: auto;
+}
+.social-Icons{
+	float: right;
+	width: auto;
+	margin-right: 50px;
+	padding-left: 20px;
+	position: relative;
+}
+.social-Icons > i{
+	padding : 8px;
+} 
+.header{
+    background-color: #fafafa26;
+    padding:15px 100px 25px ;
+    margin-top: 5px;
+    position: fixed;
+    top:0;
+    width: 90%;
+    /*opacity: 0.5;*/
+    z-index: 3;
+}
+.header-inner{
+    /* margin:20px 40px; */
+   }
+.header-logo-container{
+    display:inline-block;
+    width:173px;
+    height: 47px;
+}
+.header-logo{
+    width:100%;
+    height:100%;
+}
+.header-content{
+    display:inline-block;
+    float: right;
+    background-color:none;
+    border-radius:30px;
+    padding:8px 10px;
+}
+.header-list-container{
+    display:inline-block;
+}
+.header-list{
+    list-style-type: none;
+    padding:0;
+}
+.header-list-item{
+    display:inline;
+    padding:8px 20px;
+    border-radius:20px;
+    font-size:17px;
+    font-weight: 500;
+    color:white;
+}
+.header-list-item:hover{
+    background-color: #32526A;
+    color:white;
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	.header{width: 75%;  padding:15px 70px 25px ;}
+} 
+
+.video-background-holder {
+  position: relative;
+  /*top:-75px;*/
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+  height: 650px;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+}
+.MainText{
+	font-size: 50px;
+	padding-left: 120px;
+	padding-top: 130px;
+	display: inline-block;
+	opacity: 0.99;
+	top:50px;
+	z-index: 1;
+}
+.JoinUsNowButton{
+	background-color: #AF1C1C;
+	border: none;
+	color: white;
+	border-radius: 25px;
+	margin: 0px;
+	padding:13px;
+	width: auto;
+}
+.h4_CartoonImage{	  
+	  font-size: 12px; 
+	  color: white; 
+	  margin: auto;
+	  position: absolute;
+	  top:200px;
+	  left: 600px;
+	  z-index: 1;
+	}

@@ -1,0 +1,502 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+}  
+.Manage_Space{
+  margin:330px;
+}
+.Section_2{
+  background-image: url("./images/meetings-page-bg.jpg");
+  height: 1300px;
+  border: none;
+  width: auto; 
+  z-index: 2;
+}
+.Section_2Inner{
+  position: absolute;
+  top: 205px;
+  left: 100px;
+  background-color: none;
+  height: 75%;
+  width: 85%;
+}
+.flex-container{
+  display: flex;
+  background-color:none; 
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  top: -350px;
+}
+.flex-container > div{
+  flex-direction: column;
+  background-image: url("./images/service-item-bg.jpg");
+  justify-content: center;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 5px;
+  margin:10px;
+  color: white;
+  z-index: 1;
+  display: inline-block;
+}
+.circleLeft{
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: white; 
+  position: absolute;
+  top: 120px;
+  left: -19px;
+  z-index: 2;
+  color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleRight{
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: white; 
+  position: absolute;
+  top: 120px;
+  left: 1110px;
+  z-index: 2;
+  color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .circleRight{left: 1110px;  }
+}
+.TextUpcommingMeeting{
+    font-size: 15px;
+    font-weight: bold; 
+    color: white;
+    margin: auto;
+    text-align: center; 
+}
+.FiveSectionDiv{
+  position: relative;
+  top: 80px;
+  background-color: none;
+  height: 85%;
+  width:100%;
+  display: flex;
+}
+.Section_2Block1{
+  background-color: white;
+  color: black;
+  height: 55%;
+  width: 20%; 
+  margin: 0px;
+  border-radius: 25px;
+  padding: 20px;
+  position: absolute;
+}
+.FiveSectionDivColumn1{
+  position: relative;
+  top: 0px;
+  left: 350px;
+  background-color: none;
+  height: auto;
+  width:auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.FiveSectionDivColumn1 > div{
+  background-color: white;
+  color: black;
+  height: auto;
+  width: auto;
+  margin-bottom: 60px;
+  border-radius: 25px;
+}
+.FiveSectionDivColumn1 > img{
+  display: block;
+  margin:0px;
+  width: auto;
+  border-radius: 25px;
+  padding: 0px;
+}
+.FiveSectionDivColumn2{
+  position: relative;
+  top: 0px;
+  left: 370px;
+  background-color: none;
+  height: auto;
+  width:auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.FiveSectionDivColumn2 > div{
+  background-color: white;
+  color: black;
+  height: 43%;
+  width: auto;
+  margin-bottom: 30px;
+
+  border-radius: 25px;
+}
+.FiveSectionDivColumn2 > img{
+  display: block;
+  margin:0px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.Section_3{
+  background-image: url("./images/apply-bg.jpg");
+  height: 850px;
+  border: none;
+  width: auto; 
+  z-index: 1;
+}
+.Section_3Inner{
+  position: relative;
+  top: 145px;
+  left: 130px;
+  background-color: none;
+  width: 80%;
+  height: 80%;
+}
+
+.applyforbachelordegree{
+ position: relative;
+ display: flex;
+ flex-direction: column; 
+}
+.applyforbachelordegree > div{
+ background-color: #fafafa26;
+ width: 50%;
+ height: auto;
+ padding: 20px;
+ color: white;
+ margin-bottom: 35px;
+}
+.ApplyforbachelordegreeText{
+    font-size: 25px; 
+    font-weight: bold;
+}
+.JoinUsNowYellowButton{
+  background-color: #FBAA07;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  margin: 0px;
+  padding:13px;
+  width: 25%;
+}
+.AboutEDUMeeting{
+ background-color: white;
+ width: 40%;
+ height: 75%;
+ padding: 20px;
+ color: white;
+ border-radius: 15px;
+ position: absolute;
+ top: 0px;
+ left: 625px;
+ display: flex;
+ flex-direction: column; 
+}
+.AboutEDUMeeting > i{
+float: right;
+}
+
+.AboutEDUMeetingText{
+  font-size: 15px;
+  color: black;
+  line-height: 17px;
+  margin: 20px;
+}
+
+.Section_4{
+  height: 755px;
+  margin: 0px;
+  background-image: url("./images/meetings-bg.jpg");
+  border: none;
+  position: relative;
+  width: 100%;
+}
+.Section_4Inner{
+  position: relative;
+  top: 145px;
+  left: 130px;
+  background-color: none;
+  width: 80%;
+  height: 60%;
+}
+.OurPopularCourses{
+    font-size: 17px;
+    font-weight: bold; 
+    color: white; 
+    margin: auto;
+    position: relative;
+  }
+.Section_4Flexbox{
+  display: flex;
+  background-color:none; 
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  position:relative; 
+  margin-top: 45px;
+  width: 100%;
+  z-index: 1;
+}
+.Section_4FlexboxSmall{
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 5px;
+  margin:8px;
+  color: black;
+  display: inline-block;
+} 
+.Section_4FlexboxDivLarge{
+    flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 5px;
+  margin:10px;
+  margin-bottom: 20px;
+  color: black;
+  display: inline-block;
+}
+.Section_4Flexbox > img {
+  display: block;
+  margin:0px;
+  width: 100%;
+}
+.Section_4Flexbox > p {
+ text-align: center;
+ padding: auto;
+ font-size: 12px;
+ color: black;
+}
+.Star{
+  color: #FE8317;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.Section_4doller{
+  display: inline-block;
+  color: #F84005;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.ThreeDots{
+  font-weight: bold;
+  font-size: 60px;
+  color:white;
+  position: relative;
+  top: 190px;
+  margin-left: 650px;
+ /* z-index: 1;*/
+}
+.Section_5{
+  height: 875px;
+  margin: 0px;
+  background-image: url("./images/facts-bg.jpg");
+  border: none;
+  position: relative;
+  top:0px;
+  width: 100%;
+}
+.Section_5Inner{
+  position: relative;
+  top: 145px;
+  background-color: none;
+  width: 90%;
+  margin: auto;
+  height: 60%;
+}
+.FewFactsAboutUniText{
+  font-size: 50px;
+  position: relative;
+  top:60px;
+  left:50px;
+  z-index: 1;
+}
+
+.Section_5BoxesContainer{
+ background-color: none;
+ width: 45%;
+ height: 65%;
+ position: relative;
+ top: 10px;
+ left: 50px;
+ padding: 20px;
+ z-index: 2;
+ margin-top: 20px;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+.Section_5BoxesContainer2{
+ background-color: none;
+ width: 25%;
+ height: 65%;
+ position: absolute;
+ top: 90px;
+ left: 330px;
+ padding: 20px;
+ z-index: 2;
+ margin-top: 20px;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+.Section_5BoxesContainer > div{
+ background-color: #fafafa26;
+ position: relative;
+ top: 10px;
+ left: 10px; 
+ height: 45%;
+ width: 40%;
+ border-radius: 25px;
+ margin-bottom: 20px;
+}
+
+.Section_5BoxesContainer2 > div{
+ background-color: #fafafa26;
+ position: relative;
+ top: 30px;
+ left: 10px; 
+ height: 45%;
+ width: 70%;
+ border-radius: 25px;
+ margin-bottom: 20px;
+}
+
+.Section_5BoxesContainer > h2{
+  font-size: 25px;
+  color: orange;
+  font-weight: bold; 
+  margin: auto;
+}
+.Section_5BoxesContainer > h3{
+  font-size: 15px;
+  color: white; 
+  margin: 10px;
+}
+
+.Section_5ImageContainer{
+background-color: none;
+ width: 35%;
+ height: 65%;
+ position: absolute;
+ top: 50px;
+ left: 750px;
+ z-index: 2;
+ margin-top: 20px;
+ border-radius: 10px;
+ display: flex;
+}
+.Section_5ImageContainer > img{
+  margin:0px;
+}
+
+.Section_6{
+  height: 825px;
+  margin: 0px;
+  margin-bottom: 0px;
+  background-image: url("./images/meetings-page-bg.jpg");
+  border: none;
+  position: relative;
+  top:0px;
+  width: 100%;
+}
+.Section_6Inner{
+  position: relative;
+  top: 145px;
+  background-color: none;
+  width: 80%;
+  margin: auto;
+  height: 60%;
+}
+.Section_6Form{
+  background-color: white;
+  color: black;
+  margin-bottom: 0px;
+  /*margin: 80px;*/
+  padding: 30px;
+  position: relative;;
+  width: 50%;
+  border-radius: 10px;
+}
+.Section_6Form > h1{
+color: black;
+padding-left: 20px;
+font-weight: bold;
+font-size: 18px;
+}
+.Section_6Form > h2{
+color: #808080;
+background-color: #E2E0E0 ;
+padding: 12px;
+font-weight: bold;
+font-size: 10px;
+width: 20%;
+border-radius: 20px;
+margin-left: 25px;
+margin-top: 35px;
+display: inline-block;
+}
+.Section_6Form > h3{
+color: #808080;
+background-color: #E2E0E0 ;
+padding: 12px;
+padding-bottom: 80px;
+font-weight: bold;
+font-size: 10px;
+width: 78%;
+border-radius: 20px;
+margin-left: 25px;
+margin-top: 20px;
+}
+.Section_6Info{
+  background-color: #BB0404;
+  color: white;
+  margin: 10px;
+  padding: 30px;
+  position: absolute;
+  top: -30px;
+  left: 660px;
+  width: 20%;
+  height: 75%;
+  border-radius: 10px;
+}
+.Section_6Info > hr{
+  color: 1px solid white;
+  width: 80%;
+}
+.Section_6 > hr{
+  position: relative;
+  top: 190px;
+  /*left: -10px;*/
+  width: 100%;
+}
+.CopyRight{
+  color: white;
+  position: relative;
+  top: 250px;
+  margin-bottom: 10px;
+}
